@@ -26,3 +26,15 @@ header {
       font-size: 30px;
       margin: 0 auto;
     }
+
+    header {
+      display: flex;
+      align-items: center;
+    }
+
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      grid-gap: 30px;
+    }
