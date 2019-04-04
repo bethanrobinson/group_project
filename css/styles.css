@@ -1,0 +1,28 @@
+header {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    }
+  ul {
+   padding: 10px;
+   background: rgba(0, 0, 0, 0.5);
+   color: black;
+  }
+  li {
+      display: inline;
+      padding: 0px 50px 0px 50px;
+      color: black;
+      font-size; 25px;
+    }
+    a {
+      color: black;
+    }
+    h1 {
+      font-family: 'Amatic SC', cursive;
+      text-align: center;
+      margin: 0 auto;
+    }
+    h2{
+      font-size: 30px;
+      margin: 0 auto;
+    }
