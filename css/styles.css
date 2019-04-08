@@ -37,7 +37,3 @@ header {
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       grid-gap: 30px;
     }
-
-    .card:hover {
-          background: url("images/card-front.jpg") no-repeat;
-      }
