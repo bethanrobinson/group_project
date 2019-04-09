@@ -4,7 +4,7 @@ header {
     }
   ul {
    padding: 10px;
-   background: rgba(0, 0, 0, 0.5);
+   background: rgba(255, 255, 255);
    color: black;
   }
   li {
@@ -27,16 +27,17 @@ header {
     }
     h3 {
       font-family: 'EB Garamond', serif;
-      text-align: justify;
+      text-align: center;
       margin: 0 auto;
     }
 div.textarea {
-	width: 600px;
-	height: 120px;
-  border: 8px solid #cccccc;
-	padding: 5px;
+	width: 500px;
+	height: 200px;
+  border: 8px solid #cbbeb5;
+	padding: 10px;
   text-align: left;
 	font-family: 'EB Garamond', serif;
   font-size: 20px;
   border-radius: 10px;
+  margin-left: 425px;
 }
