@@ -39,6 +39,19 @@ header {
       grid-gap: 30px;
     }
 
+    button {
+        border: none;
+        padding: 16px
+        margin: 10;
+        text-decoration: left;
+        background: #0000;
+        color: #ffffff;
+        font-family: 'Amatic SC', cursive;
+        font-size: 35px;
+        cursor: pointer;
+        text-align: center;
+    }
+
 .dropbtn {
   background-color: none;
   color: black;
