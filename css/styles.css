@@ -44,7 +44,10 @@ header {
       margin: 0 auto;
     }
 
-
+    label {
+      font-family: 'Amatic SC', cursive;
+      font-size: 20px;
+    }
 
     header {
       display: flex;
