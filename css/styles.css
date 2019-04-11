@@ -28,6 +28,12 @@ header {
       margin: 0 auto;
     }
 
+    h3{
+      padding: 10px;
+      font-size: 16px;
+      margin: 0 auto;
+    }
+
     header {
       display: flex;
       align-items: center;
@@ -39,13 +45,9 @@ header {
       grid-gap: 30px;
     }
 
-<<<<<<< HEAD
     button {
         border: none;
-        padding: 16px
-        margin: 10;
-        text-decoration: left;
-        background: #0000;
+        padding: 50px
         color: #ffffff;
         font-family: 'Amatic SC', cursive;
         font-size: 35px;
@@ -53,91 +55,46 @@ header {
         text-align: center;
     }
 
-=======
-    .fa:hover {
-      opacity: 0.7;
-    }
-    .fa {
-      padding: 12px;
-      font-size: 30px;
-      width: 22px;
-      text-align: center;
-      text-decoration: none;
-      margin: 0px 90px;
-      border-radius: 50%;
-    }
-    .fa-facebook {
-      background: #3B5998;
-      color: white;
-    }
-    .fa-twitter {
-      background: #55ACEE;
-      color: white;
-    }
-    .fa-instagram {
-      background: #125688;
-      color: white;
-    }
-    .fa-tumblr {
-      background: #2c4762;
-      color: white;
-    }
-
-    input[type=text], select, textarea {
-      width: 100%;
-      padding: 5px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-      margin-top: 2px;
-      margin-bottom: 5px;
-      resize: vertical;
-    }
-    input[type=submit] {
-      background-color: #4CAF50;
-      color: white;
-      padding: 10px 12px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
+    .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 5px;
 }
-  input[type=submit]:hover {
-    background-color: #45a049;
-}
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 5px;
-}
->>>>>>> 4e648eb806a2588bd5b4a5805355a39f7c90be99
 .dropbtn {
-  background-color: none;
-  color: black;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+background-color: none;
+font-family: 'Amatic SC', cursive;
+color: black;
+padding: 16px;
+font-size: 35px;
+border: none;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+position: relative;
+font-family: 'Amatic SC', cursive;
+font-size: 40px;
+display: inline-block;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #808080;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
-  z-index: 1;
+display: none;
+font-family: 'Amatic SC', cursive;
+font-size: 35px;
+position: absolute;
+background-color: #808080;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+z-index: 1;
+right: 0px
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  overflow:auto
+color: black;
+font-size: 35px;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+overflow: auto
 }
 
 .dropdown-content a:hover {background-color: #ddd;}
