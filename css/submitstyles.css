@@ -73,31 +73,31 @@ form {
   padding: 5px;
 }
 .dropbtn {
-background-color: none;
-font-family: 'Amatic SC', cursive;
-color: black;
-padding: 16px;
-font-size: 35px;
-border: none;
+  background-color: none;
+  font-family: 'Amatic SC', cursive;
+  color: black;
+  padding: 16px;
+  font-size: 35px;
+  border: none;
 }
 
 .dropdown {
-position: relative;
-font-family: 'Amatic SC', cursive;
-font-size: 40px;
-display: inline-block;
+  position: relative;
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  display: inline-block;
 }
 
 .dropdown-content {
-display: none;
-font-family: 'Amatic SC', cursive;
-font-size: 35px;
-position: absolute;
-background-color: #808080;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
-z-index: 1;
-right: 0px
+  display: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  position: absolute;
+  background-color: #808080;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+  z-index: 1;
+  right: 0px
 }
 
 .dropdown-content a {
