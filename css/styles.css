@@ -15,6 +15,9 @@ header {
       color: black;
       font-size; 25px;
     }
+    a:link {
+  text-decoration: none;
+}
     a {
       color: black;
     }
@@ -25,6 +28,12 @@ header {
     }
     h2{
       font-size: 30px;
+      margin: 0 auto;
+    }
+
+    h3{
+      padding: 10px;
+      font-size: 16px;
       margin: 0 auto;
     }
 
@@ -41,10 +50,7 @@ header {
 
     button {
         border: none;
-        padding: 16px
-        margin: 10;
-        text-decoration: left;
-        background: #0000;
+        padding: 50px
         color: #ffffff;
         font-family: 'Amatic SC', cursive;
         font-size: 35px;
@@ -117,25 +123,31 @@ header {
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+position: relative;
+font-family: 'Amatic SC', cursive;
+font-size: 40px;
+display: inline-block;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #808080;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
-  z-index: 1;
+display: none;
+font-family: 'Amatic SC', cursive;
+font-size: 35px;
+position: absolute;
+background-color: #808080;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+z-index: 1;
+right: 0px
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  overflow:auto
+color: black;
+font-size: 35px;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+overflow: auto
 }
 
 .dropdown-content a:hover {background-color: #ddd;}
