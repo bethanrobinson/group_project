@@ -39,7 +39,6 @@ header {
       grid-gap: 30px;
     }
 
-<<<<<<< HEAD
     button {
         border: none;
         padding: 16px
@@ -53,7 +52,6 @@ header {
         text-align: center;
     }
 
-=======
     .fa:hover {
       opacity: 0.7;
     }
@@ -109,13 +107,13 @@ header {
     background-color: #f2f2f2;
     padding: 5px;
 }
->>>>>>> 4e648eb806a2588bd5b4a5805355a39f7c90be99
 .dropbtn {
   background-color: none;
   color: black;
   padding: 16px;
-  font-size: 16px;
+  font-size: 35px;
   border: none;
+  font-family: 'Amatic SC', cursive;
 }
 
 .dropdown {
