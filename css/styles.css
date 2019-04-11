@@ -39,6 +39,7 @@ header {
       grid-gap: 30px;
     }
 
+<<<<<<< HEAD
     button {
         border: none;
         padding: 16px
@@ -52,6 +53,63 @@ header {
         text-align: center;
     }
 
+=======
+    .fa:hover {
+      opacity: 0.7;
+    }
+    .fa {
+      padding: 12px;
+      font-size: 30px;
+      width: 22px;
+      text-align: center;
+      text-decoration: none;
+      margin: 0px 90px;
+      border-radius: 50%;
+    }
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .fa-tumblr {
+      background: #2c4762;
+      color: white;
+    }
+
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 2px;
+      margin-bottom: 5px;
+      resize: vertical;
+    }
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+}
+  input[type=submit]:hover {
+    background-color: #45a049;
+}
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5px;
+}
+>>>>>>> 4e648eb806a2588bd5b4a5805355a39f7c90be99
 .dropbtn {
   background-color: none;
   color: black;

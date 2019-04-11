@@ -1,4 +1,5 @@
 header {
+    display: flex;
     text-align: center;
     font-family: 'Amatic SC', cursive;
     }
@@ -11,10 +12,12 @@ header {
       display: inline;
       padding: 0px 50px 0px 50px;
       color: black;
+      font-size: 35px;
     }
-    div.navigation {
+
+    /* div.navigation {
       font-size: 25px;
-    }
+    } */
     a {
       color: black;
     }
@@ -23,7 +26,9 @@ header {
       font-size: 35px;
     }
     h2 {
-      font-size: 25px;
+      font-size: 30px;
+      margin: 0 auto;
+      padding: 30px 0px 30px 0px;
     }
     h3 {
       font-family: 'EB Garamond', serif;
@@ -33,11 +38,39 @@ header {
 div.textarea {
 	width: 500px;
 	height: 200px;
-  border: 8px solid #cbbeb5;
+  border: 5px solid #000000;
 	padding: 10px;
   text-align: left;
 	font-family: 'EB Garamond', serif;
   font-size: 20px;
   border-radius: 10px;
   margin-left: 425px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa {
+  padding: 12px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 80px;
+  border-radius: 60%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
 }
